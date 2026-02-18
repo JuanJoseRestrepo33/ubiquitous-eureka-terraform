@@ -21,7 +21,7 @@ In this academic exercise, the configuration uses:
 - **mutable** repositories (tags can be overwritten), and
 - image scanning disabled.
 
-⚠️ **BAD PRACTICE FOR PRODUCTION**: in real projects, always enable image immutability and image scanning to reduce security risk.
+**BAD PRACTICE FOR PRODUCTION**: in real projects, always enable image immutability and image scanning to reduce security risk.
 
 ## Typical Files in a Terraform Module/Stack
 
