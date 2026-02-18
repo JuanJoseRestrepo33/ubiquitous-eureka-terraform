@@ -1,7 +1,11 @@
 [submodule "labs-tutorials-code"]
 	path = labs-tutorials-code
 	url = https://github.com/MISW-4301-Desarrollo-Apps-en-la-Nube/labs-tutorials-code.git
-	branch = feature/eks
+	branch = feature/rds
 [submodule "calculadora-numeros"]
 	path = calculadora-numeros
 	url = https://github.com/MISW-4301-Desarrollo-Apps-en-la-Nube/calculadora-numeros.git
+[submodule "labs-tutorials-code-eks"]
+	path = labs-tutorials-code-eks
+	url = https://github.com/MISW-4301-Desarrollo-Apps-en-la-Nube/labs-tutorials-code.git
+	branch = feature/eks
