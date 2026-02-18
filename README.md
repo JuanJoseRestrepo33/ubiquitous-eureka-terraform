@@ -52,6 +52,12 @@ Logical S3 location example:
 
 - `s3://<bucket>/container_registry/terraform.tfstate`
 
+### State Bucket Recommendation
+
+In this project, Terraform state is stored in an S3 bucket.
+
+To reduce operational risk, that bucket should be managed in a separate project (or dedicated stack) and treated as foundational infrastructure. Avoid modifying or recreating the state bucket from application stacks, because changes there can break state access and impact all deployments.
+
 ## Recommended Flow: init, validate, plan, apply
 
 > On Windows/Git Bash (or whenever the path contains spaces), use quotes around `$(pwd)`.
